@@ -1,0 +1,22 @@
+#header {
+  background: url(http://riotjs.com/img/logo/riot60x.png) no-repeat 0 0;
+  background-position: 0 center;
+  font-size: 3rem;
+  margin: 0 0 3rem;
+  padding: 1rem 0 1rem 7rem;
+  border-bottom: 1px solid #888;
+}
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+body.container {
+    padding: 3rem;
+    background-color: #EFEFEF;
+    max-width: 1000px;
+}
+
+header h1 a {
+    font-size: 30px !important;
+}

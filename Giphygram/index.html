@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Giphygram</title>
+
+        <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css">
+        <link rel="stylesheet" href="/bower_components/milligram/dist/milligram.min.css">
+        <link rel="stylesheet" href="/style.css">
+
+        <script src="/bower_components/riot/riot.min.js"></script>
+        <script src="/mixins/giphy.js"></script>
+        <script src="/js/app-components.js"></script>
+        
+    </head>
+    <body class="container">
+        <header>
+            <h1>Giphygram</h1>
+            <search></search>
+        </header>
+
+        <br>
+        <search-result></search-result>
+        
+        <script> riot.mount("*"); </script>
+    </body>
+</html>

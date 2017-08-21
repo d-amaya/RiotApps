@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Riot Blog</title>
+
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/stack.css"> 
+
+        <script src="/bower_components/riot/riot.min.js"></script>
+        <script src="/bower_components/riot-route/dist/route.min.js"></script>
+        
+    </head>
+    <body class="container">
+        <header id="header">
+            <h1>
+                <a href="/" style="color: #222; text-decoration: none;">Blog</a>
+                <a href="/admin" class="u-pull-right">Admin</a>
+            </h1>
+        </header>   
+
+        <div id="view"></div>
+        
+        <!-- Riot tags -->
+        <script src="/mixin/post.js"></script>
+        <script src="/js/riot-tags.js"></script>
+        <script src="/js/router.js"></script>
+        <script> riot.mount("*"); </script>
+    </body>
+</html>
